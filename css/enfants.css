@@ -1,0 +1,17 @@
+/* 
+    Document   : enfants
+    Created on : 30 sept. 2013, 08:15:07
+    Author     : JG
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#video article { float: left; width: 450px; height: 270px;}
+#video article img { float: left; }
+
+/* Smartphone et Tablette*/
+@media only screen and (max-width:800px) {
+    #video { width: 100%; height: 100%;}
+    #video article {float: none; width: 100%; height: auto;}
+    #video iframe { width: 100%; left: 0; right:0; }
+}
